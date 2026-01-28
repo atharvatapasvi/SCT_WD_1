@@ -6,7 +6,7 @@
 }
 
 body {
-  min-height: 200vh; /* makes page scrollable */
+  min-height: 200vh;
 }
 
 
@@ -50,7 +50,6 @@ nav.scrolled {
   transition: color 0.3s ease;
 }
 
-/* ✨ Hover Effect */
 .nav-links a::after {
   content: "";
   position: absolute;
